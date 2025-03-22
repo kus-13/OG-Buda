@@ -1,0 +1,410 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&display=swap');
+body{
+    margin: 0;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+a {
+    margin-left: 50px;
+    text-decoration: none;
+    color: #000;
+    font-family: "Handjet", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+
+    
+}
+#cover {
+    background-image: url(img/og_buda.png);
+    height: 999px;
+    display: flex;  
+}
+div.container4 {
+    height: 10em;
+    position: relative 
+}
+div.container4 p {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-weight: 900;
+    font-size: 35px;
+    margin-right: -50%;
+    margin-top: 300px;
+    display: inline-block;
+    color: hsl(0, 0%, 65%);
+    transform: translate(-50%, -50%) 
+ 
+}
+div.container3 {
+    height: 10em;
+    position: relative 
+}
+div.container3 p {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-weight: 1000;
+    font-size: 40px;
+    margin-top: 300px;
+    display: inline-block;
+    color: hsl(0, 0%, 100%);
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+div.container2 {
+    height: 10em;
+    position: relative 
+}
+div.container2 p {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-weight: 900;
+    font-size: 35px;
+    margin-top: 300px;
+    display: inline-block;
+    color: hsl(0, 0%, 65%);
+    transform: translate(-50%, -50%) 
+  
+ 
+}
+.cover-content{
+    font-family: "Handjet", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+
+}
+.audio{
+    width: 1140px;
+    margin-top: 300px;
+    display: inline-block;
+}
+#cover1 {
+    background-image: url(img/ОБ\ ИСПОЛНИТЕЛЕ.png);
+    height: 1246px;
+    display: flex;  
+}
+.heading{
+    text-align: right;
+    margin-left: 50px;
+    display: inline-block;
+    margin-top: 50px;
+    font-size: 60px;
+}
+div.container5 {
+    text-align: right;
+    margin-left: 300px;
+    display: flex;
+    vertical-align: 37px;
+}
+div.container5 p{
+    font-weight: 600;
+    text-align: center;
+    font-size: 30px;
+}
+#cover2 {
+    height: 249px;
+    display: flex;  
+}
+.album{
+    font-weight: 600;
+    text-align: center;
+    font-size: 85px;
+}
+
+.slider-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.slider {
+    display: flex;
+    width: max-content; 
+}
+
+.slide-track {
+    display: flex;
+    animation: scroll 20s linear infinite;
+}
+
+.slide-track img {
+    width: 200px; 
+    height: auto;
+    margin-right: 20px; 
+}
+
+/* Анимация прокрутки */
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%); 
+    }
+}
+.tracks{
+    margin: 390px;
+    height: 926px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 150px;
+
+}
+.blok{
+    background: #D9D9D9;
+    color: #000;
+    padding: 10px;
+    border-radius: 88px;
+    height: 30px;
+    width: 323px;
+    font-size: 25px;
+    font-weight: 800;
+    margin-top: -50px;
+    text-align: center;
+    font-family: "Handjet", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+.executor{
+    font-size: 40px;
+    font-size: 600;
+    margin-left: -75%;
+    font-family: "Handjet", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+.OG{
+    font-size: 50px;
+    font-weight: 800;
+    margin-top: -50px;
+    font-family: "Handjet", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+.listen{
+    background: #F1FF33;
+    color: #000;
+    padding: 10px;
+    border-radius: 88px;
+    height: 30px;
+    width: 202px;
+    font-size: 25px;
+    font-weight: 800;
+    margin-top: 15px;
+}
+.v67{
+    display: flex;
+    flex-direction: row;
+    font-size: 40px;
+    font-weight: 800;
+    margin-left: 50px;
+    margin-top: 5%;
+    font-family: "Handjet", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    text-align: justify;
+}
+.v45{
+    background: #D9D9D9;
+    color: #000;
+    padding: 10px;
+    border-radius: 56px;
+    height: 50px;
+    width: 613px;
+    font-size: 25px;
+    font-weight: 800;
+    margin-top: -50px;
+    font-family: "Handjet", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+
+}
+.g45{
+    margin-left: 35px;
+}
+.tem{
+    margin-left: 550px;
+    margin-top: -30px;
+}
+
+.v46{
+    background: #D9D9D9;
+    color: #000;
+    padding: 10px;
+    border-radius: 56px;
+    height: 50px;
+    width: 613px;
+    font-size: 25px;
+    font-weight: 800;
+    margin-top: -50px;
+    margin-top: 30px;
+    font-family: "Handjet", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+
+}
+.g46{
+    margin-left: 35px;
+}
+.tem1{
+    margin-left: 550px;
+    margin-top: -30px;
+}
+.v47{
+    background: #D9D9D9;
+    color: #000;
+    padding: 10px;
+    border-radius: 56px;
+    height: 50px;
+    width: 613px;
+    font-size: 25px;
+    font-weight: 800;
+    margin-top: -50px;
+    margin-top: 30px;
+    font-family: "Handjet", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+
+}
+.g47{
+    margin-left: 35px;
+}
+.tem2{
+    margin-left: 550px;
+    margin-top: -30px;
+}
+.v48{
+    background: #D9D9D9;
+    color: #000;
+    padding: 10px;
+    border-radius: 56px;
+    height: 50px;
+    width: 613px;
+    font-size: 25px;
+    font-weight: 800;
+    margin-top: -50px;
+    margin-top: 30px;
+    font-family: "Handjet", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+
+}
+.g48{
+    margin-left: 35px;
+}
+.tem3{
+    margin-left: 550px;
+    margin-top: -30px;
+}
+.v49{
+    background: #D9D9D9;
+    color: #000;
+    padding: 10px;
+    border-radius: 56px;
+    height: 50px;
+    width: 613px;
+    font-size: 25px;
+    font-weight: 800;
+    margin-top: -50px;
+    margin-top: 30px;
+    font-family: "Handjet", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+
+}
+.g49{
+    margin-left: 35px;
+}
+.tem4{
+    margin-left: 550px;
+    margin-top: -30px;
+}
+.reliz{
+    background: #D9D9D9;
+    color: #000;
+    padding: 10px;
+    border-radius: 67px;
+    height: 465px;
+    width: 394px;
+    margin-top: 380px;
+    margin-left: 15px;
+
+}
+.rz{
+    margin-top: -20px;
+    margin-left: 10%;
+    border-radius: 10px;
+}
+.t1{
+    margin-top: -1px;
+    font-size: 40px;
+    text-align: center;
+    font-family: "Handjet", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+.t2{
+    margin-top: -2px;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    font-family: "Handjet", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+
+}
+.t3{
+    margin-top: -25px;
+    font-size: 25px;
+    text-align: center;
+    font-family: "Handjet", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+
+}
+.t4{
+    margin-top: -20px;
+    font-size: 25px;
+    text-align: center;
+    font-family: "Handjet", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+
+}
+
+
+
+
+
+
+
